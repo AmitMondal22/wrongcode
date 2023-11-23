@@ -1,0 +1,47 @@
+/*------------------------------------
+*Author:FortunaTheme
+*Template:Zovan
+*Version:1.1
+*-------------------------------------
+*/
+
+.heading {
+  background: url('../images/preview/welcome-preview.jpg');
+  background-size: cover;
+  padding: 60px 0px;
+  margin-bottom: 70px;
+  text-align: center;
+  color: #fff;
+}
+
+.heading h2,
+.heading h5 {
+  color: #fff;
+}
+
+.heading h5 {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.item {
+  max-width: 550px;
+  overflow: hidden;
+  background: #f2f2f2;
+  box-sizing: border-box;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px #414141;
+  margin-bottom: 80px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item a p {
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px 0px;
+}

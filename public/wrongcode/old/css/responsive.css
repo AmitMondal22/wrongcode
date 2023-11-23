@@ -1,0 +1,252 @@
+/*------------------------------------
+ *Author:FortunaTheme
+ *Template:Zovan
+ *Version:1.0
+ *-------------------------------------
+ */
+
+@media screen and (max-width: 992px) {
+  /*------padding--------*/
+  .padding-style1 {
+    padding: 70px 0;
+  }
+  /*------header--------*/
+  #menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    z-index: 10;
+    background: transparent;
+  }
+  .slicknav_btn {
+    margin-top: 20px;
+    background: #fff;
+    margin-right: 20px;
+  }
+  .slicknav_nav a {
+    background: #d5d4d4;
+    height: 47px;
+    color: #000;
+    width: 200px;
+    padding-top: 12px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .slicknav_nav li {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+  }
+  .slicknav_nav a:hover {
+    border-radius: 0px;
+    background: #181818;
+    color: #fff;
+  }
+  .slicknav_nav,
+  .slicknav_nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .slicknav_nav .slicknav_row,
+  .slicknav_nav a {
+    margin: 0px;
+  }
+  .slicknav_menu .slicknav_icon-bar {
+    background-color: #000;
+  }
+  /*--------------about----------------*/
+  .about-img-overlay {
+    width: 100%;
+  }
+  .about-img {
+    margin-bottom: 30px;
+  }
+  .about-text a {
+    margin-top: 45px;
+  }
+  .about-text {
+    padding-left: 0px;
+  }
+  .about-img-overlay {
+    bottom: 30px;
+  }
+  .about-img:hover .about-img-overlay {
+    bottom: 30px;
+  }
+  .about .fun-item {
+    background: #f2f2f2;
+    padding: 8px 0px;
+    box-shadow: 0px 0px 5px #c6c6c6;
+    margin-top: 24px;
+  }
+  /*------------portfolio---------------*/
+  .corner-bottom {
+    bottom: -20px;
+  }
+  /*------------hire-me---------------*/
+  .hire-me .hire-btn {
+    margin-top: 38px;
+  }
+  /*------------blog---------------*/
+  .blog-single-item.blog-item-margin {
+    margin-bottom: 50px;
+  }
+  .blog-single-item .blog-text a {
+    margin-top: 8px;
+  }
+  /*------------contact---------------*/
+  .contact-detail {
+    margin-bottom: 50px;
+  }
+  textarea {
+    margin-top: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  /*------------portfolio---------------*/
+  .corner-bottom {
+    bottom: 0px;
+  }
+  .portfolio-overlay .category {
+    margin-top: 70px;
+  }
+  /*------------service---------------*/
+  .service-item {
+    min-height: 365px;
+  }
+  /*------------hire-me---------------*/
+  .hire-me .hire-btn {
+    margin-top: 28px;
+    margin-left: -28px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  /*--------------header--------------*/
+  .typed-cursor,
+  .element {
+    font-size: 45px;
+  }
+  /*----------testimonial---------*/
+  #client-testimonial #owl-demo-testimonial .item {
+    margin: 0px 20px;
+  }
+  .quote-text {
+    margin: 0px 30px;
+  }
+}
+
+@media only screen and (min-device-width: 722px) and (max-device-width: 767px) {
+  /*------------portfolio---------------*/
+  .portfolio-overlay .category {
+    margin-top: 180px;
+  }
+  .corner-bottom {
+    bottom: -190px;
+  }
+}
+
+@media only screen and (min-device-width: 670px) and (max-device-width: 721px) {
+  /*------------portfolio---------------*/
+  .portfolio-overlay .category {
+    margin-top: 160px;
+  }
+  .corner-bottom {
+    bottom: -170px;
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 669px) {
+  /*------------portfolio---------------*/
+  .portfolio-overlay .category {
+    margin-top: 160px;
+  }
+  .corner-bottom {
+    bottom: -130px;
+  }
+}
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 599px) {
+  /*------------portfolio---------------*/
+  .portfolio-overlay .category {
+    margin-top: 160px;
+  }
+  .corner-bottom {
+    bottom: -70px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 599px) {
+  /*------------portfolio---------------*/
+  .portfolio-overlay .category {
+    margin-top: 160px;
+  }
+  .corner-bottom {
+    bottom: -40px;
+  }
+}
+
+@media only screen and (min-device-width: 400px) and (max-device-width:479px) {
+  /*------------portfolio---------------*/
+  .portfolio-overlay .category {
+    margin-top: 120px;
+  }
+  .corner-bottom {
+    bottom: -10px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  /*--------section-title-----*/
+  .section-title {
+    padding: 0px 10px;
+  }
+  /*----------testimonial---------*/
+  .quote-text {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width:360px) {
+  /*----------------testimonial-----------*/
+  #client-testimonial .owl-carousel .owl-wrapper-outer {
+    min-height: 461px;
+  }
+  /*------------portfolio---------------*/
+  .portfolio-overlay .category {
+    margin-top: 60px;
+  }
+  .corner-bottom {
+    bottom: -15px;
+  }
+  /*------------contact---------------*/
+  #name,
+  #email {
+    margin-bottom: 15px;
+  }
+  form {
+    background: #232323;
+    padding: 30px 30px;
+  }
+  #contact-submit {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  /*-------portfolio------*/
+  .portfolio-overlay .category {
+    margin-top: 65px;
+  }
+  .corner-bottom {
+    bottom: 6px;
+  }
+  /*----------------testimonial-----------*/
+  #client-testimonial .owl-carousel .owl-wrapper-outer {
+    min-height: 485px;
+  }
+}
